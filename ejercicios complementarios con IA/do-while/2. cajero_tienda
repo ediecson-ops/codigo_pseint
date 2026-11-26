@@ -1,0 +1,15 @@
+Algoritmo cajero_tienda 
+	definir venta Como Real
+	definir respuesta, producto, acumulador Como Caracter
+	Repetir
+		escribir "ingresa el producto a vender "
+		leer producto
+		escribir "ingresa el valor del producto"
+		leer venta 
+		escribir "deseas registrar otra venta (si /no )"
+		leer respuesta 
+		acumulador <- acumulador + "producto"+ " " + producto + "valor: "+ " " + ConvertirATexto(venta)
+	Hasta Que respuesta = "no" o respuesta = "NO"
+	escribir " productos vendidos :"
+	escribir acumulador 
+	FinAlgoritmo

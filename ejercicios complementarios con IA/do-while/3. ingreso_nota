@@ -1,0 +1,9 @@
+Algoritmo ingreso_nota
+	definir nota Como Real
+	Escribir "bienvenido "
+	repetir 
+		escribir " ingresa la nota que registraras"
+		leer nota
+	Hasta Que nota >=3.5 y nota <= 5.0
+	escribir " la nota que registraste " nota 
+FinAlgoritmo

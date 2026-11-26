@@ -1,0 +1,28 @@
+Algoritmo colegio_aulas
+	Definir asignatura Como Entero
+	Escribir "bienvenido"
+	escribir "de la sigiente lista selecciona la asignatura que deseas consultar"
+	escribir "1. naturales"
+	Escribir "2. sociales"
+	Escribir "3.matematicas"
+	Escribir "4.quimica"
+	Leer asignatura
+	segun asignatura Hacer
+		Caso 1: 
+			Escribir "naturales:"
+			escribir " bloque a: aula 4"
+		Caso 2:
+			Escribir "sociales:"
+			Escribir "bloque b: aula 1"
+		Caso 3:
+			Escribir "matematica: "
+			Escribir "bloque a: aula 3"
+		caso 4:
+			Escribir "quimica"
+			Escribir "bloque a: aula 2"
+		De Otro Modo:
+			escribir "seleccion incorrecta"
+			escribir "intentalo de nuevo"
+			
+	FinSegun
+	FinAlgoritmo
