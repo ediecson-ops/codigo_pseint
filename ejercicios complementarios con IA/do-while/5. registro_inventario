@@ -1,0 +1,14 @@
+Algoritmo registro_inventario
+	definir cantidad,total Como Entero
+	definir respuesta Como Caracter
+	total <- 0
+	respuesta <- "si"
+	mientras respuesta = "si" hacer
+		escribir " ingrese la cantidad de productos recibidos:"
+		leer cantidad
+		total <- total + cantidad
+		escribir "¿desea registrar otra entrada? (si/no)"
+	   leer respuesta 
+   FinMientras
+   escribir "la cantidad total recibida es : " total
+	FinAlgoritmo

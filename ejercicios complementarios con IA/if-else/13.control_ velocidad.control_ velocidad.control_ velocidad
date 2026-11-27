@@ -1,0 +1,12 @@
+Algoritmo Control_Velocidad
+		Definir velocidad Como Real
+		
+		Escribir "Ingrese la velocidad registrada:"
+		Leer velocidad
+		
+		Si velocidad <= 60 Entonces
+			Escribir "Velocidad dentro del limite permitido."
+		SiNo
+			Escribir "Velocidad superior al limite permitido."
+		FinSi
+FinAlgoritmo

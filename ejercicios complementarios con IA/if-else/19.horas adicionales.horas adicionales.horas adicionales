@@ -1,0 +1,17 @@
+Algoritmo Horas_Adicionales
+		Definir horas, adicionales Como Real
+		
+		Escribir "Ingrese las horas trabajadas:"
+		Leer horas
+		
+		Si horas > 8 Entonces
+			adicionales <- horas - 8
+			
+			Escribir "Se reconocen horas adicionales."
+			Escribir "Horas adicionales: ", adicionales
+		SiNo
+			Escribir "No tiene horas adicionales."
+		FinSi
+
+	
+FinAlgoritmo

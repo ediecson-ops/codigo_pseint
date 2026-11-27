@@ -1,0 +1,17 @@
+Algoritmo Membresia_Gimnasio
+		Definir vigente Como Logico
+		
+		Escribir "La membresia esta vigente?"
+		Escribir "Ingrese Verdadero o Falso:"
+		Leer vigente
+		
+		Si vigente = Verdadero Entonces
+			Escribir "Membresia vigente."
+			Escribir "Ingreso permitido."
+		SiNo
+			Escribir "Membresia vencida."
+			Escribir "Ingreso denegado."
+		FinSi
+
+
+FinAlgoritmo

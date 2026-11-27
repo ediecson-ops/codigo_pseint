@@ -1,0 +1,15 @@
+Algoritmo Control_Inventario
+		Definir unidades, minimo Como Entero
+		
+		Escribir "Ingrese las unidades disponibles:"
+		Leer unidades
+		
+		Escribir "Ingrese el minimo permitido:"
+		Leer minimo
+		
+		Si unidades < minimo Entonces
+			Escribir "Se requiere reposicion."
+		SiNo
+			Escribir "Inventario suficiente."
+		FinSi
+FinAlgoritmo

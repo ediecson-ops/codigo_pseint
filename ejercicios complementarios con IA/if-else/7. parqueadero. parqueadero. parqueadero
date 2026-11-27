@@ -1,0 +1,13 @@
+Algoritmo parqueadero
+	definir espacios Como Entero
+	Escribir "ingrese los espacios disponibles "
+	leer espacios
+	si espacios > 0 entonces 
+		escribir "espacios dispobibles" " " espacios
+		escribir "pueden ingresar"
+	sino 
+		escribir " no hay espacios disponibles "
+		Escribir "no pueden ingresar"
+	FinSi
+	
+FinAlgoritmo

@@ -1,0 +1,16 @@
+Algoritmo prestamos_biblioteca
+	definir libro ,lista  Como Caracter
+	definir entregas ,contador Como Entero
+	entregas <- 0
+	contador <- 0
+	lista <- " "
+	mientras entregas < 100 Hacer
+		escribir "ingresa el libro que se entrego"
+		leer libro
+		contador <- contador + 1
+		entregas <- entregas + 1
+		lista <- lista + libros +" " 
+	FinMientras
+	escribir " los libro entregados fueron" lista 
+	escribir " la cantidad de libros fue " contador 
+FinAlgoritmo

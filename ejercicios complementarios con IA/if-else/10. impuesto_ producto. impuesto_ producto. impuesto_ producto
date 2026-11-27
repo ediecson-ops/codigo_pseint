@@ -1,0 +1,18 @@
+Algoritmo Impuesto_Producto
+		Definir precio, impuesto, total Como Real
+		
+		Escribir "Ingrese el precio del producto:"
+		Leer precio
+		
+		Si precio > 100000 Entonces
+			impuesto <- precio * 0.10
+			total <- precio + impuesto
+			
+			Escribir "Aplica impuesto adicional."
+			Escribir "Impuesto: ", impuesto
+			Escribir "Total a pagar: ", total
+		SiNo
+			Escribir "No aplica impuesto adicional."
+			Escribir "Total a pagar: ", precio
+		FinSi
+FinAlgoritmo

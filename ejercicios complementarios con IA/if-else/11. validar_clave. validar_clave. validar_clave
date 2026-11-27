@@ -1,0 +1,15 @@
+Algoritmo Validar_Clave
+		Definir clave Como Cadena
+		
+		Escribir "Ingrese su clave:"
+		Leer clave
+		
+		Si clave = "1234" Entonces
+			Escribir "Clave correcta."
+			Escribir "Acceso permitido."
+		SiNo
+			Escribir "Clave incorrecta."
+			Escribir "Acceso denegado."
+		FinSi
+FinAlgoritmo
+

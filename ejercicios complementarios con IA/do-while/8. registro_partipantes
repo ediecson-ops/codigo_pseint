@@ -1,0 +1,11 @@
+Algoritmo registro_partipantes
+	definir nombre, respuesta Como Caracter
+	repetir 
+		escribir "ingrese el nombre "
+		leer nombre
+		escribir " nombre del participante: " nombre 
+		escribir "deseas agregar otro participante si / no "
+		leer respuesta 
+	Hasta Que  respuesta = "NO" o respuesta = "no"
+	escribir "fin del registro"
+FinAlgoritmo

@@ -1,0 +1,14 @@
+Algoritmo menu
+	definir opci Como Entero
+	Repetir
+		Escribir  " MENU "
+		Escribir "1. consultar con asesor"
+		escribir "2. conocer servicios"
+		escribir "3. salir"
+		leer opci
+		si opci < 1 o opci > 3 Entonces
+			escribir "opcion invalidad intentalo de nuevo"
+			FinSi
+	Hasta Que opci >= 1 o opci <= 3
+	escribir "opcion valida seleccionada " opci
+FinAlgoritmo

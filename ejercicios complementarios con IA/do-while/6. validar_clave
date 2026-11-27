@@ -1,0 +1,11 @@
+Algoritmo validar_contraseña
+	definir clave Como Caracter
+	Repetir
+		escribir "ingrese la contraseña"
+		leer clave
+		si Longitud(clave) < 8 entonces 
+			escribir " contraseña demasiado corta intenta , intenta nuevamente" 
+		FinSi
+		Hasta Que Longitud(clave) >= 8
+		escribir "contraseña validad"
+FinAlgoritmo

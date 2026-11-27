@@ -1,0 +1,15 @@
+Algoritmo Capacidad_Sala
+		Definir asistentes, capacidad Como Entero
+		
+		Escribir "Ingrese el numero de asistentes:"
+		Leer asistentes
+		
+		Escribir "Ingrese la capacidad de la sala:"
+		Leer capacidad
+		
+		Si asistentes <= capacidad Entonces
+			Escribir "La sala tiene capacidad suficiente."
+		SiNo
+			Escribir "La sala no tiene capacidad suficiente."
+		FinSi
+FinAlgoritmo

@@ -1,0 +1,20 @@
+Algoritmo Pago_Transporte
+		Definir saldo, costo Como Real
+		
+		Escribir "Ingrese su saldo disponible:"
+		Leer saldo
+		
+		Escribir "Ingrese el costo del viaje:"
+		Leer costo
+		
+		Si saldo >= costo Entonces
+			Escribir "Saldo suficiente."
+			Escribir "Puede realizar el viaje."
+		SiNo
+			Escribir "Saldo insuficiente."
+			Escribir "No puede realizar el viaje."
+		FinSi
+
+
+	
+FinAlgoritmo

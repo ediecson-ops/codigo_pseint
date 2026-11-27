@@ -1,0 +1,11 @@
+Algoritmo cantidad_inventario
+	definir canti Como Entero
+	escribir "ingrese la cantidad de productos: "
+	Leer canti
+	mientras canti < 0 Hacer
+		escribir  "cantidad de no validad. "
+		escribir " ingrese una cantidad no negativa "
+		leer canti
+	FinMientras
+	escribir "cantidad registrada correctamente : " canti
+FinAlgoritmo

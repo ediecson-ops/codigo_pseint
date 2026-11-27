@@ -1,0 +1,21 @@
+Algoritmo Pago_Compra
+		Definir dinero, compra, diferencia Como Real
+		
+		Escribir "Ingrese el valor de la compra:"
+		Leer compra
+		
+		Escribir "Ingrese el dinero recibido:"
+		Leer dinero
+		
+		Si dinero >= compra Entonces
+			diferencia <- dinero - compra
+			Escribir "Pago suficiente."
+			Escribir "Su cambio es: ", diferencia
+		SiNo
+			diferencia <- compra - dinero
+			Escribir "Dinero insuficiente."
+			Escribir "Falta: ", diferencia
+		FinSi
+FinProceso
+
+FinAlgoritmo

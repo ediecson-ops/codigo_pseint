@@ -1,0 +1,15 @@
+Algoritmo Peso_Paquete
+		Definir peso Como Real
+		
+		Escribir "Ingrese el peso del paquete en kg:"
+		Leer peso
+		
+		Si peso <= 20 Entonces
+			Escribir "El paquete cumple el peso permitido."
+			Escribir "Puede ser enviado."
+		SiNo
+			Escribir "El paquete supera el peso maximo."
+			Escribir "No puede ser enviado."
+		FinSi
+
+FinAlgoritmo
